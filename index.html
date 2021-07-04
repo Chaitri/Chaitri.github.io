@@ -1,1 +1,169 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7d51f361a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Chaitri Shyam Mohan</title>
+  </head>
+  <body>
+    <header class="header flex">
+      <div></div>
+      <nav class="navbar">
+        <label class="bars" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" id="toggle" />
+        <ul class="nav-links flex">
+          <li>
+            <a href="#home" onclick="window.location.reload(true);">Home</a>
+          </li>
+          <li>
+            <a href="#about" onclick="window.location.reload(true);">About</a>
+          </li>
+          <li>
+            <a href="#projects" onclick="window.location.reload(true);"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#contact" onclick="window.location.reload(true);"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <h1>Hi, I'm Chaitri.</h1>
+        <h2>Web Developer</h2>
+      </section>
+      <section class="container">
+        <div class="about" id="about">
+          <div class="section-title">
+            <h3>About</h3>
+            <div class="line"></div>
+          </div>
+          <div class="">
+            <p>
+              I'm passionate about developing projects that solves real world
+              problems. Currently, my focus is to keep learning with the
+              intention of becoming a full stack developer.
+            </p>
+            <div class="skills">
+              <ul class="flex skill-list">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-git-alt"></i>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="projects">
+        <div class="projects">
+          <div class="section-title">
+            <h3>Projects</h3>
+            <div class="line"></div>
+          </div>
+          <div class="project-item">
+            <article class="flex">
+              <img src="assets/Buson.PNG" alt="Image for Project Buson" />
+              <div class="project-info">
+                <p class="project-title">Buson</p>
+                <p class="project-desc">
+                  Implemented a static website from scratch as per the given
+                  design.
+                </p>
+                <p class="project-tech">Tech Used: HTML , CSS</p>
+                <div class="links">
+                  <a href="https://chaitri.github.io/buson/" target="_blank">
+                    <i class="fas fa-link"></i>
+                  </a>
+                  <a href="https://github.com/Chaitri/buson" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="project-item">
+            <article class="flex">
+              <img
+                src="assets/BloomHut.PNG"
+                alt="Image for Project Bloom Hut"
+              />
+              <div class="project-info">
+                <p class="project-title">The Bloom Hut</p>
+                <p class="project-desc">
+                  Created a website for a nursery. Plants and planter
+                  information is dynamically loaded from JavaScript objects.
+                  This website is also fully responsive.
+                </p>
+                <p class="project-tech">Tech used: HTML , CSS , JavaScript</p>
+                <div class="links">
+                  <a
+                    href="https://chaitri.github.io/Bloom_Hut_Nursery/"
+                    target="_blank"
+                  >
+                    <i class="fas fa-link"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Chaitri/Bloom_Hut_Nursery"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="contact">
+        <div class="contact">
+          <div class="section-title">
+            <h3>Contact</h3>
+            <div class="line"></div>
+          </div>
+          <p>You can reach me at :</p>
+          <div class="socials">
+            <div class="circle">
+              <a href="https://www.linkedin.com/in/chaitri-sm/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="circle">
+              <a href="https://github.com/Chaitri" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="circle">
+              <a href="https://twitter.com/chaitri_s" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="circle">
+              <a href="mailto:chaitri.s.mohan@gmail.com" target="_blank">
+                <i class="far fa-envelope-open"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
